@@ -1,0 +1,33 @@
+package com.vance.appstartup;
+
+import android.app.Application;
+
+import com.vance.appstartup.startup.manage.StartupManager;
+import com.vance.appstartup.tasks.Task1;
+import com.vance.appstartup.tasks.Task2;
+import com.vance.appstartup.tasks.Task3;
+import com.vance.appstartup.tasks.Task4;
+import com.vance.appstartup.tasks.Task5;
+
+public class MyApplication extends Application {
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+
+//        new Task1().create(MyApplication.this);
+//        new Task2().create(MyApplication.this);
+//        new Task3().create(MyApplication.this);
+//        new Task4().create(MyApplication.this);
+//        new Task5().create(MyApplication.this);
+
+//        new StartupManager.Builder()
+//                .addStartup(new Task5())
+//                .addStartup(new Task4())
+//                .addStartup(new Task3())
+//                .addStartup(new Task2())
+//                .addStartup(new Task1())
+//                .build(this)
+//                .start().await();
+    }
+}
